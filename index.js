@@ -35,15 +35,24 @@ var hexSec = Math.round((255/59) * currentSec);
 //Output the Time
 if(greg){
   $("#clock").text(hex);
+  
+
 }else{
   $("#clock").text(clock);
+    
+
+
 }
 
 $("#clicks span").on("click",function(){
   if($(this).text() == 'HEX'){
     greg = true;
+    $("#click2").css("font-weight", "bold");
+    $("#click1").css("font-weight", "");
   } else {
     greg = false;
+    $("#click1").css("font-weight", "bold");
+    $("#click2").css("font-weight", "");
   }
   hexClock();
 });

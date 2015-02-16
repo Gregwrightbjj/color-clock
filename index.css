@@ -30,3 +30,7 @@ font-weight: bold;
 #clicks{
 	font-size: 16px;
 }
+span{
+	cursor: pointer;
+
+}
