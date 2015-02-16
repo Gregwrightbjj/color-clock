@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  font: 64px/64px Lato, sans-serif;
+  line-height: 1.4;
+  color: white;
+}
+
+
+#content{
+	position: relative;
+  top: 50%;
+  margin-top: -32px;
+  /*Horizontal centering*/
+  text-align: center;
+}
+#click1:hover{
+
+font-weight: bold;
+}
+#click2:hover{
+
+font-weight: bold;
+}
+#clicks{
+	font-size: 16px;
+}
