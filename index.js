@@ -49,11 +49,13 @@ $("#clicks span").on("click",function(){
     greg = true;
     $("#click2").css("font-weight", "bold");
     $("#click1").css("font-weight", "");
-  } else {
+    
+} else {
     greg = false;
     $("#click1").css("font-weight", "bold");
     $("#click2").css("font-weight", "");
-  }
+   
+}
   hexClock();
 });
 
