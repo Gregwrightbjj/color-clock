@@ -43,7 +43,7 @@ if(greg){
 
 
 }
-
+//click function for changing time format
 $("#clicks span").on("click",function(){
   if($(this).text() == 'HEX'){
     greg = true;
@@ -61,7 +61,8 @@ $("#clicks span").on("click",function(){
 
 // Make the body bakground-color equal to the hex value of current time.
   var color = "#" +currentHour+currentMin+currentSec;
-  document.body.style.background = color;
+ // it was document.body.style.background = color;
+ $("body").css("background-color", color);
 }
 
 // Call the function after every second. 
