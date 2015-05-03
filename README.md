@@ -1,5 +1,7 @@
 ## Color Clock
 
+http://gregwrightbjj.github.io/color-clock
+
 ### Description
 
 This assignment serves to reinforce JS fundamentals with `setInterval`, writing to the DOM, practicing CSS animations, positions, and transforms, and finally breaking down complex problems into simple sequences in code.
