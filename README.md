@@ -48,16 +48,3 @@ These collected values can expressed in two different ways:
 The hour, minute, and second values in the current time should correspond to the red, blue, and green values in a CSS color, respectively. Use the `convertTimePeriod` function to convert the hour/minute/second values to a 0-255 scale. 
 
 You'll need to write code that converts the 0-255 value to two of the hexadecimal characters.
-## Hard Mode
-
-Create a new Github repo, setup your project files, and recreate the following screencapture as a webpage.
-
-![](./clock.gif)
-
-## Notes
-
-Notes go here...
-
-## Additional Resources
-
-* Read []()
